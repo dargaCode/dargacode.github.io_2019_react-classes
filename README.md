@@ -1,16 +1,6 @@
-# dargaCode.github.io
+# dargaCode.github.io (React/Typescript, 2019)
+<strong>Language: JS/React/Typescript/SCSS</strong>
 
-**<a href="https://dargacode.github.io"><b>Live Webpage</b></a>**
+This version of my portfolio is a port of the original vanilla js implementation, introducing Webpack, React, Typescript, Storybook, Jest tests, SCSS, etc.
 
-Bringing my old website forward to reflect my current stack and development practices:
-* React
-* TypeScript
-* SCSS
-* Jest
-* Storybook
-* Webpack
-
-TODO:
-* React Hooks
-* SEO
-* CI/CD
+**<a href="https://dargacode.com/dargacode.github.io_2019_react_typescript/"><b>Live Webpage</b></a>**
