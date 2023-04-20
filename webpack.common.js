@@ -5,7 +5,6 @@ const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 const HtmlWebpackRootPlugin = require("html-webpack-root-plugin");
-const CnameWebpackPlugin = require("cname-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const MomentLocalesWebpackPlugin = require("moment-locales-webpack-plugin");
 
@@ -80,13 +79,10 @@ module.exports = {
       eslint: false
     }),
     new HtmlWebpackPlugin({
-      title: "dargaCode - Darga Darga Programmer Portfolio",
+      title: "dargaCode - Darga Portfolio (React/Typescript, 2019)",
       template: "src/template.html"
     }),
     new HtmlWebpackRootPlugin(),
-    new CnameWebpackPlugin({
-      domain: "dargacode.com"
-    }),
     new MiniCssExtractPlugin(),
     new MomentLocalesWebpackPlugin()
   ]

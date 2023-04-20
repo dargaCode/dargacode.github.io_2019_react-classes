@@ -14,8 +14,14 @@ import ResumeSection from "./components/resume/ResumeSection";
 import ContactSection from "./components/contact/ContactSection";
 
 function App(): JSX.Element {
+  // required when hosting the app on a subdirectory of a domain rather than top-level
+  const projectPath =
+    process.env.NODE_ENV === "production"
+      ? "/dargacode.github.io_2019_react_typescript/"
+      : "/";
+
   return (
-    <Router>
+    <Router basename={projectPath}>
       <div className="router-container">
         <div id="nocontent">
           {/* ignored by google */}
